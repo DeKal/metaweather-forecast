@@ -1,0 +1,45 @@
+components:
+  schemas:
+    SuccessResponse:
+      title: Success response
+      type: object
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
+    CitiesPayload:
+      title: Cities payload
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            cities:
+              type: array
+              items:
+                type: object
+                properties:
+                  title:
+                    type: string
+                  woeid:
+                    type: number
+    WeatherPayload:
+      title: Weather payload
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            weathers:
+              type: array
+              items:
+                type: object
+                properties:
+                  minTemperature:
+                    type: number
+                  maxTemperature:
+                    type: number
+                  date:
+                    type: string
+             

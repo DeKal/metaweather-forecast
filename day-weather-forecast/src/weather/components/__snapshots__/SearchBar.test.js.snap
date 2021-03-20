@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar test render correctly SearchBar for disabled case 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    class="MuiAutocomplete-root"
+    role="combobox"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root makeStyles-container-29"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root makeStyles-cssLabel-33 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-disabled Mui-disabled"
+        data-shrink="false"
+      >
+        label
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root makeStyles-cssOutlinedInput-32 makeStyles-inputBox-30 Mui-disabled Mui-disabled MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-invalid="false"
+          autocapitalize="none"
+          autocomplete="off"
+          class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused Mui-disabled Mui-disabled MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+          id="auto-complete-text-field"
+          placeholder="Search"
+          spellcheck="false"
+          value=""
+        />
+        <div
+          class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            color="#9E9E9E"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-39 MuiOutlinedInput-notchedOutline makeStyles-notchedOutline-38"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-41"
+          >
+            <span>
+              label
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SearchBar test render correctly SearchBar for error case 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    class="MuiAutocomplete-root Mui-focused"
+    role="combobox"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root makeStyles-container-15"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root makeStyles-cssLabel-19 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-error Mui-error Mui-focused Mui-focused makeStyles-cssFocused-23"
+        data-shrink="true"
+      >
+        label
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root makeStyles-inputBox-16 Mui-error Mui-error Mui-focused Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-invalid="true"
+          autocapitalize="none"
+          autocomplete="off"
+          class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+          id="auto-complete-text-field"
+          placeholder="Search"
+          spellcheck="false"
+          value=""
+        />
+        <div
+          class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-colorError"
+            color="#9E9E9E"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-25 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-27 PrivateNotchedOutline-legendNotched-28"
+          >
+            <span>
+              label
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SearchBar test render correctly SearchBar for normal case 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    class="MuiAutocomplete-root Mui-focused"
+    role="combobox"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root makeStyles-container-1"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root makeStyles-cssLabel-5 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-focused Mui-focused makeStyles-cssFocused-9"
+        data-shrink="true"
+      >
+        label
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root makeStyles-cssOutlinedInput-4 makeStyles-inputBox-2 Mui-focused Mui-focused makeStyles-cssFocused-9 MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-invalid="false"
+          autocapitalize="none"
+          autocomplete="off"
+          class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+          id="auto-complete-text-field"
+          placeholder="Search"
+          spellcheck="false"
+          value=""
+        />
+        <div
+          class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            color="#9E9E9E"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-11 MuiOutlinedInput-notchedOutline makeStyles-notchedOutline-10"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-13 PrivateNotchedOutline-legendNotched-14"
+          >
+            <span>
+              label
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;

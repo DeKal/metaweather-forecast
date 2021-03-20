@@ -1,0 +1,12 @@
+{
+  "search.exclude": {
+      "**/.git": true,
+      "**/node_modules": true,
+      "**/__mocks__": true,
+      "**/__snapshots__": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+}
+}

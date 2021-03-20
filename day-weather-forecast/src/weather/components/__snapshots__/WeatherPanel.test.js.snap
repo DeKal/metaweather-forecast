@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherPanel test render correctly 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-2"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-1 MuiContainer-maxWidthXs"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+        >
+          <div
+            class="MuiGrid-root makeStyles-dateText-2 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1"
+            >
+              Thursday 18
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-maxWeatherText-3 MuiGrid-item"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4"
+            >
+              12°C
+            </h4>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-minWeatherText-4 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6"
+            >
+              5°C
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-2"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-1 MuiContainer-maxWidthXs"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+        >
+          <div
+            class="MuiGrid-root makeStyles-dateText-2 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1"
+            >
+              Friday 19
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-maxWeatherText-3 MuiGrid-item"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4"
+            >
+              13°C
+            </h4>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-minWeatherText-4 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6"
+            >
+              4°C
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-2"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-1 MuiContainer-maxWidthXs"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+        >
+          <div
+            class="MuiGrid-root makeStyles-dateText-2 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1"
+            >
+              Saturday 20
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-maxWeatherText-3 MuiGrid-item"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4"
+            >
+              15°C
+            </h4>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-minWeatherText-4 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6"
+            >
+              5°C
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-2"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-1 MuiContainer-maxWidthXs"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+        >
+          <div
+            class="MuiGrid-root makeStyles-dateText-2 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1"
+            >
+              Sunday 21
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-maxWeatherText-3 MuiGrid-item"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4"
+            >
+              19°C
+            </h4>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-minWeatherText-4 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6"
+            >
+              5°C
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-2"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-1 MuiContainer-maxWidthXs"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+        >
+          <div
+            class="MuiGrid-root makeStyles-dateText-2 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1"
+            >
+              Monday 22
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-maxWeatherText-3 MuiGrid-item"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4"
+            >
+              12°C
+            </h4>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-minWeatherText-4 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6"
+            >
+              5°C
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-2"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-1 MuiContainer-maxWidthXs"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+        >
+          <div
+            class="MuiGrid-root makeStyles-dateText-2 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1"
+            >
+              Tuesday 23
+            </h6>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-maxWeatherText-3 MuiGrid-item"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4"
+            >
+              12°C
+            </h4>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-minWeatherText-4 MuiGrid-item"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6"
+            >
+              5°C
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WeatherPanel test render empty panel correctly 1`] = `
+<div>
+  No weather to display. Please search for a city.
+</div>
+`;
+
+exports[`WeatherPanel test render loading panel correctly 1`] = `
+<div>
+  <div
+    class="MuiGrid-root makeStyles-container-5"
+  >
+    <div
+      class="MuiCircularProgress-root makeStyles-loading-6 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+      role="progressbar"
+      style="width: 36px; height: 36px;"
+    >
+      <svg
+        class="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20.2"
+          stroke-width="3.6"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherTile test render correctly with floating temp 1`] = `
+<div>
+  <div
+    class="MuiContainer-root makeStyles-container-5 MuiContainer-maxWidthXs"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+    >
+      <div
+        class="MuiGrid-root makeStyles-dateText-6 MuiGrid-item"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle1"
+        >
+          Thursday 18
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-maxWeatherText-7 MuiGrid-item"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4"
+        >
+          12°C
+        </h4>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-minWeatherText-8 MuiGrid-item"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6"
+        >
+          6°C
+        </h6>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WeatherTile test render correctly with rounded temp 1`] = `
+<div>
+  <div
+    class="MuiContainer-root makeStyles-container-1 MuiContainer-maxWidthXs"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+    >
+      <div
+        class="MuiGrid-root makeStyles-dateText-2 MuiGrid-item"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle1"
+        >
+          Thursday 18
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-maxWeatherText-3 MuiGrid-item"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4"
+        >
+          1°C
+        </h4>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-minWeatherText-4 MuiGrid-item"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6"
+        >
+          0°C
+        </h6>
+      </div>
+    </div>
+  </div>
+</div>
+`;
