@@ -1,6 +1,16 @@
 # weather-service
 This microservice takes care of getting data from https://www.metaweather.com/ and plays a role of middle service, so that our app can scale better.
 
+## Prerequisite
+- Prefer Node >= v12.
+
+- Install dependencies
+`yarn`
+
+- VScode (strongly recommend)
+
+- VSCode Plugin: Prettier + Eslint
+
 ## Running it
 Run `yarn install` and then `yarn start`
 

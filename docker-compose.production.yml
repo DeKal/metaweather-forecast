@@ -1,0 +1,28 @@
+version: "2"
+services:
+  client:
+    build:
+      context: day-weather-forecast
+      dockerfile: ./Dockerfile.production
+    environment:
+     - REACT_APP_API_URL=http://localhost:3001
+    restart: always
+    ports:
+      - "3000:80"
+    links:
+      - api
+    networks: 
+      - webappnetwork
+    stdin_open: true
+  api:
+    build:
+      context: weather-service
+      dockerfile: ./Dockerfile.production
+    restart: always
+    ports:
+      - "3001:3001"
+    networks: 
+      - webappnetwork
+networks:
+  webappnetwork:
+        driver: bridge

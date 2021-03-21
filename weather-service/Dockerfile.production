@@ -1,0 +1,16 @@
+
+FROM mhart/alpine-node:12.21.0
+
+WORKDIR /api
+
+COPY package*.json /api/
+COPY yarn.lock /api/
+
+RUN yarn install
+
+COPY . /api/
+RUN yarn build
+
+EXPOSE 80
+
+CMD ["yarn", "start-prod"]

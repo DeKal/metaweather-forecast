@@ -1,0 +1,30 @@
+version: "2"
+services:
+  client:
+    build: day-weather-forecast
+    environment:
+     - REACT_APP_API_URL=http://localhost:3001
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./day-weather-forecast:/client
+      - /day-weather-forecast/node_modules
+    links:
+      - api
+    networks: 
+      - webappnetwork
+    stdin_open: true
+  api:
+    build: weather-service
+    restart: always
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./weather-service:/api
+      - /weather-service/node_modules
+    networks: 
+      - webappnetwork
+networks:
+  webappnetwork:
+        driver: bridge
