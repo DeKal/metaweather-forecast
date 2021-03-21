@@ -1,5 +1,8 @@
 # metaweather-forecast
 
+## System Design
+Please take a look at [System Design](https://github.com/DeKal/metaweather-forecast/blob/master/system-design.pdf)
+
 ## Prerequisite
 - Docker
 - Docker compose
