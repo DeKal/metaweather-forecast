@@ -27,6 +27,22 @@ docker-compose -f docker-compose.production.yml build
 docker-compose -f docker-compose.production.yml up
 ```
 
+## Manually
+In case your docker environment has something wrong, just start 2 project in 2 different terminal tabs. As default, client will run at http://localhost:3000 and backend service will run at http://localhost:3001.
+- Start Client
+```
+cd day-weather-forecast
+yarn instal
+yarn start
+```
+- Start backend
+```
+cd weather-service
+yarn instal
+yarn start
+```
+
+
 ## Frontend
 ### Documetation
 - See [Front-end docs](/day-weather-forecast/README.md) for more development detail.
