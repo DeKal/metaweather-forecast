@@ -9,7 +9,7 @@ services:
       - "3000:3000"
     volumes:
       - ./day-weather-forecast:/client
-      - /day-weather-forecast/node_modules
+      - /client/node_modules
     links:
       - api
     networks: 
@@ -22,7 +22,7 @@ services:
       - "3001:3001"
     volumes:
       - ./weather-service:/api
-      - /weather-service/node_modules
+      - /api/node_modules
     networks: 
       - webappnetwork
 networks:
